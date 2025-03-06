@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+    font:caption;
+    height: 90vh;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+#time, #date{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    text-decoration: solid;
+}
+
+#chng-color #chng2-color{
+    margin: 2px;
+    padding: 2px;
+}
+
+#chng-color:hover{
+    background-color: grey;
+}
+
+#chng2-color:hover{
+    background-color: grey;
+}
